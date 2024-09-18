@@ -8,7 +8,7 @@ def show_main(request):
     mood_entries = MoodEntry.objects.all()
 
     context = {
-        'name': 'Stefanus Tan Jaya',
+        'name': 'Stefanus Tan Jaya', #tes
         'class': 'PBP D',
         'npm': '2306152456',
         'mood_entries': mood_entries
